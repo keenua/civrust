@@ -1,0 +1,16 @@
+[
+  {
+		"ID": 126,
+		"Title": "Wood",
+		"Description": "A simple resource",
+		"Value": 1,
+		"IsStackable": true
+	},
+  {
+    "ID": 140,
+    "Title": "Hatchet",
+    "Description": "Something you can chop wood with",
+    "Value": 1,
+    "IsStackable": false
+  }
+]

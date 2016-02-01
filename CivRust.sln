@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivRust.CSharp", "CivRust.CSharp.csproj", "{895AFF33-1F0E-C161-962C-6D417CC1F044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivRust.CSharp.Editor", "CivRust.CSharp.Editor.csproj", "{2AF6FE97-F0AC-14DD-3B59-18C8D5CE70BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{895AFF33-1F0E-C161-962C-6D417CC1F044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895AFF33-1F0E-C161-962C-6D417CC1F044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895AFF33-1F0E-C161-962C-6D417CC1F044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895AFF33-1F0E-C161-962C-6D417CC1F044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF6FE97-F0AC-14DD-3B59-18C8D5CE70BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF6FE97-F0AC-14DD-3B59-18C8D5CE70BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF6FE97-F0AC-14DD-3B59-18C8D5CE70BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF6FE97-F0AC-14DD-3B59-18C8D5CE70BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
