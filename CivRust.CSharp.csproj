@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.3.1f1</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -70,23 +72,27 @@
     <Compile Include="Assets\Code\Libraries\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
     <Compile Include="Assets\Code\Libraries\Tiled2Unity\Scripts\Runtime\TiledInitialShaderProperties.cs" />
     <Compile Include="Assets\Code\Libraries\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
-    <Compile Include="Assets\Code\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Code\Scripts\Constants.cs" />
-    <Compile Include="Assets\Code\Scripts\GameController.cs" />
-    <Compile Include="Assets\Code\Scripts\InteractableUnit.cs" />
-    <Compile Include="Assets\Code\Scripts\Inventory.cs" />
-    <Compile Include="Assets\Code\Scripts\InventorySlot.cs" />
-    <Compile Include="Assets\Code\Scripts\ItemData.cs" />
-    <Compile Include="Assets\Code\Scripts\ItemDatabase.cs" />
-    <Compile Include="Assets\Code\Scripts\PlayerHit.cs" />
-    <Compile Include="Assets\Code\Scripts\PlayerInteractions.cs" />
-    <Compile Include="Assets\Code\Scripts\ScoreController.cs" />
-    <Compile Include="Assets\Code\Scripts\TimeController.cs" />
-    <Compile Include="Assets\Code\Scripts\Tooltip.cs" />
-    <Compile Include="Assets\Code\Scripts\TreeController.cs" />
-    <Compile Include="Assets\Code\Scripts\TreePartController.cs" />
-    <Compile Include="Assets\Code\Scripts\WalkerController.cs" />
-    <Compile Include="Assets\MapController.cs" />
+    <Compile Include="Assets\Code\Scripts\General\Constants.cs" />
+    <Compile Include="Assets\Code\Scripts\General\GameController.cs" />
+    <Compile Include="Assets\Code\Scripts\General\HUDFPS.cs" />
+    <Compile Include="Assets\Code\Scripts\General\Map.cs" />
+    <Compile Include="Assets\Code\Scripts\General\MapObjectInfo.cs" />
+    <Compile Include="Assets\Code\Scripts\Inventory\Inventory.cs" />
+    <Compile Include="Assets\Code\Scripts\Inventory\InventorySlot.cs" />
+    <Compile Include="Assets\Code\Scripts\Inventory\ItemData.cs" />
+    <Compile Include="Assets\Code\Scripts\Inventory\ItemDatabase.cs" />
+    <Compile Include="Assets\Code\Scripts\Inventory\Tooltip.cs" />
+    <Compile Include="Assets\Code\Scripts\Lumberjack\PlayerHit.cs" />
+    <Compile Include="Assets\Code\Scripts\Lumberjack\ScoreController.cs" />
+    <Compile Include="Assets\Code\Scripts\Lumberjack\TimeController.cs" />
+    <Compile Include="Assets\Code\Scripts\Lumberjack\TreeController.cs" />
+    <Compile Include="Assets\Code\Scripts\Lumberjack\TreePartController.cs" />
+    <Compile Include="Assets\Code\Scripts\Main\CameraFollow.cs" />
+    <Compile Include="Assets\Code\Scripts\Main\InteractableUnit.cs" />
+    <Compile Include="Assets\Code\Scripts\Main\MapController.cs" />
+    <Compile Include="Assets\Code\Scripts\Main\PlayerInteractions.cs" />
+    <Compile Include="Assets\Code\Scripts\Main\TreeUnit.cs" />
+    <Compile Include="Assets\Code\Scripts\Main\WalkerController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Code\Libraries\Tiled2Unity\Imported\Main.tiled2unity.xml" />
