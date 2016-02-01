@@ -15,7 +15,6 @@ public class TreeController : MonoBehaviour {
     private List<GameObject> TreeParts { get; set; }
     private Vector3[] TreePositions { get; set; }
 
-    
 
     Direction RandomTreePart()
     {

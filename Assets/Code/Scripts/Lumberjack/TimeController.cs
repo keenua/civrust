@@ -7,13 +7,18 @@ public class TimeController : MonoBehaviour {
 
     public int TimeMax = 15;
 
-    private float TimeStart { get; set; }
+    private float? TimeStart { get; set; }
     private Text TextField { get; set; }
     private Transform ProgressBar { get; set; }
 
+    public void Launch()
+    {
+        if (TimeStart == null)
+            TimeStart = Time.time;
+    }
+
 	// Use this for initialization
 	void Start () {
-        TimeStart = Time.time;
         TextField = GetComponentInChildren<Text>();
         ProgressBar = transform.GetChild(0);
 	}
@@ -21,7 +26,9 @@ public class TimeController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        int secondsLeft = TimeMax - Mathf.CeilToInt(Time.time - TimeStart);
+        if (TimeStart == null) return;
+
+        int secondsLeft = TimeMax - Mathf.CeilToInt(Time.time - TimeStart.Value);
 
         if (secondsLeft <= 0)
         {
